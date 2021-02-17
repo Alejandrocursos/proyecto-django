@@ -1,0 +1,17 @@
+label{
+    display:block;
+    border-color: 3px solid aqua;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Elegir";
+}
+
+p{
+    margin: 0rem;
+    padding: 0rem ;
+}
+
+input[type=email]{
+    margin-bottom: 1rem;
+}

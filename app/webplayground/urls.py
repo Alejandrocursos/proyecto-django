@@ -21,8 +21,8 @@ from messenger.urls import messenger_patterns
 from django.conf import settings
 
 urlpatterns = [
-    path('', include('core.urls')),
-    path('pages/', include(pages_patterns)),
+    path('sample', include('core.urls')),
+    path('', include(pages_patterns)),
     path('admin/', admin.site.urls),
     #path de Auth
     path('accounts/', include('django.contrib.auth.urls')),
